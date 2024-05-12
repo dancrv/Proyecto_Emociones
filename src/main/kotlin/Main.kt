@@ -1,5 +1,7 @@
+import Menu.Menu
 fun main() {
-    println("Empezamos!!")
-    println("Tenemos algunos problemas")
-    println("Hola")
+    var menu = Menu();
+    menu.imprimirMenuPrincipal()
+    menu.imprimirMenuSecundario()
+    menu.accesoTabla()
 }
