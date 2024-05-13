@@ -1,4 +1,4 @@
-package BaseDatos
+package Base_de_Datos
 
 import java.sql.*
 

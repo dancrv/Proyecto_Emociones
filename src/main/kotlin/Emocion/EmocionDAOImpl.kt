@@ -1,6 +1,6 @@
 package Emocion
 
-import BaseDatos.ConexionBD
+import Base_de_Datos.ConexionBD
 
 class EmocionDAOImpl: EmocionDAO {
     private val conexion = ConexionBD()

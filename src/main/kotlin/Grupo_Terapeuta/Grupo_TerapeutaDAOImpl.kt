@@ -1,6 +1,6 @@
 package Grupo_Terapeuta
 
-import BaseDatos.ConexionBD
+import Base_de_Datos.ConexionBD
 
 class Grupo_TerapeutaDAOImpl: Grupo_TerapeutaDAO {
     private val conexion = ConexionBD()
