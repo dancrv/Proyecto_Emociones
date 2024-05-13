@@ -5,5 +5,5 @@ interface IndividuoDAO {
     fun sacarIndividuo(): List<Individuo>
     fun insertarIndividuo(individuo: Individuo): Boolean
     fun modificarIndividuo(individuo: Individuo): Boolean
-    fun borrarIndividio(id_individuo: Int): Boolean
+    fun borrarIndividuo(id_individuo: Int): Boolean
 }

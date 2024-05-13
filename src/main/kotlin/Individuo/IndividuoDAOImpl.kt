@@ -71,7 +71,7 @@ class IndividuoDAOImpl: IndividuoDAO {
         return result == 1
     }
 
-    override fun borrarIndividio(id_individuo: Int): Boolean {
+    override fun borrarIndividuo(id_individuo: Int): Boolean {
         conexion.conectar()
         val query = "DELETE FROM INDIVIDUO WHERE id_individuo = ?"
         val ps = conexion.getPreparedStatement(query)

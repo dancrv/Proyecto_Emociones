@@ -100,7 +100,7 @@ class Menu {
                 }
             }
 
-            accionTabla == BORRAR && eleccionTabla == INDIVIDUO -> IndividuoDAOImpl().borrarIndividio(pedirID())
+            accionTabla == BORRAR && eleccionTabla == INDIVIDUO -> IndividuoDAOImpl().borrarIndividuo(pedirID())
             accionTabla == BUSCAR && eleccionTabla == FAMILIA -> println(FamiliaDAOImpl().buscarFamilia(pedirID()))
             accionTabla == SACAR && eleccionTabla == FAMILIA -> println(FamiliaDAOImpl().sacarFamilia())
             accionTabla == INSERTAR && eleccionTabla == FAMILIA -> {
