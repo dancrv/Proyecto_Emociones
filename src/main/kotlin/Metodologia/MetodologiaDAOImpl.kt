@@ -2,6 +2,12 @@ package Metodologia
 
 import Base_de_Datos.ConexionBD
 
+/**
+ *Implementación concreta de MetodologiaDAO.
+ *Proporciona métodos para acceder y manipular datos relacionados con la entidad Metodologia en la base de datos.
+ *  *
+ * @constructor Crea una instancia de MetodologiaDAOImpl
+ */
 class MetodologiaDAOImpl: MetodologiaDAO {
     private val conexion = ConexionBD()
 

@@ -1,5 +1,10 @@
 package Metodologia
 
+/**
+ * La clase Metodologia representa una metodología en el sistema.
+ *
+ * @constructor crea un objeto Metodologia con ID y nombre.
+ */
 class Metodologia {
 
     var id_metodologia:Int = 0
