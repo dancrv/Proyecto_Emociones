@@ -1,12 +1,11 @@
 package Rol
 
-import Metodologia.Metodologia
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*
 
 class RolDAOImplTest {
-    var rol = Metodologia(1,"Madre")
+    var rol = Rol(1,"Madre")
     var roles = ArrayList<Rol>()
 
     @Test

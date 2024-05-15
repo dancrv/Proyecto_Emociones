@@ -1,6 +1,5 @@
 package Metodologia
 
-import Individuo.Individuo
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*
