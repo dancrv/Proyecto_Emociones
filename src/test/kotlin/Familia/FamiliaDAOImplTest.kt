@@ -20,16 +20,16 @@ class FamiliaDAOImplTest {
 
     @Test
     fun insertarFamilia() {
-        assertTrue(true)
+        assertTrue(true,"El test ha fallado.")
     }
 
     @Test
     fun modificarFamilia() {
-        assertTrue(true)
+        assertTrue(true,"El test ha fallado.")
     }
 
     @Test
     fun borrarFamilia() {
-        assertTrue(true)
+        assertTrue(true,"El test ha fallado.")
     }
 }
