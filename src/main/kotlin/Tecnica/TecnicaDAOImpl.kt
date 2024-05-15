@@ -1,6 +1,6 @@
 package Tecnica
 
-import Base_de_Datos.ConexionBD
+import BaseDatos.ConexionBD
 
 class TecnicaDAOImpl: TecnicaDAO {
 

@@ -1,6 +1,6 @@
 package Terapeuta
 
-import Base_de_Datos.ConexionBD
+import BaseDatos.ConexionBD
 
 class TerapeutaDAOImpl: TerapeutaDAO {
 

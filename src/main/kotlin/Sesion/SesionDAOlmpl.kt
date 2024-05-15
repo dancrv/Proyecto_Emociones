@@ -1,6 +1,6 @@
 package Sesion
 
-import Base_de_Datos.ConexionBD
+import BaseDatos.ConexionBD
 
 class SesionDAOImpl: SesionDAO {
 
