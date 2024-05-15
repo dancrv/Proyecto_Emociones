@@ -20,6 +20,12 @@ import Tecnica.TecnicaDAOImpl
 import Terapeuta.Terapeuta
 import Terapeuta.TerapeutaDAOImpl
 
+/**
+ * La clase Menu Clase gestiona un menú interactivo para realizar operaciones
+ * crear, leer, actualizar y borrar en diferentes tablas de la base de datos.
+ *
+ * @constructor Create empty Menu
+ */
 class Menu {
     val BUSCAR = 1
     val SACAR = 2
@@ -39,6 +45,11 @@ class Menu {
     var eleccionTabla:Int = 0
     var accionTabla:Int = 0
 
+    /**
+     * La función Imprimir menu principal muestra el menú principal
+     * que permite al usuario seleccionar una acción.
+     *
+     */
     fun imprimirMenuPrincipal(){
         do {
             println("*****¿Que deseas hacer?*****")
@@ -47,6 +58,11 @@ class Menu {
         }while (this.accionTabla >= 6)
     }
 
+    /**
+     * La función Imprimir menu secundario muestra el menú secundario
+     * que permite al usuario seleccionar una tabla en la que realizar una acción
+     *
+     */
     fun imprimirMenuSecundario(){
         do {
             println("¿A que tabla deseas acceder?")
@@ -55,6 +71,11 @@ class Menu {
         }while (this.eleccionTabla >= 12)
     }
 
+    /**
+     * La clase Pedir ID solicita al usuario que ingrese un ID y lo retorna.
+     *
+     * @return El ID ingresado por el usuario.
+     */
     fun pedirID():Int{
         println("***Dime el id****")
         var id= readln().toInt()
@@ -62,6 +83,10 @@ class Menu {
     }
 
 
+    /**
+     * La función Acceso tabla realiza la acción seleccionada por el usuario en la tabla correspondiente
+     *
+     */
     fun accesoTabla() {
         when {
             accionTabla == BUSCAR && eleccionTabla == INDIVIDUO -> println(IndividuoDAOImpl().buscarIndividuo(pedirID()))
