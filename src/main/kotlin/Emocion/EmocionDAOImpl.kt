@@ -2,6 +2,13 @@ package Emocion
 
 import BaseDatos.ConexionBD
 
+/**
+ * Implementación de la interfaz EmocionDAO que interactúa con la base de datos
+ * para realizar operaciones CRUD sobre las emociones.
+ *
+ *
+ * @constructor Create empty Emocion d a o impl
+ */
 class EmocionDAOImpl: EmocionDAO {
     private val conexion = ConexionBD()
     override fun buscarEmocion(id_emocion: Int): Emocion? {

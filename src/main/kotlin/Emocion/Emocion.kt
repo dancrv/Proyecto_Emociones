@@ -1,5 +1,12 @@
 package Emocion
 
+/**
+ * Clase Emocion
+ *
+ * @property id_emocion
+ * @property nombre
+ * @constructor Create empty Emocion
+ */
 class Emocion(val id_emocion: Int, val nombre: String) {
 
     override fun toString(): String {
