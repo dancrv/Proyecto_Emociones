@@ -2,6 +2,12 @@ package Sesion_Emocion
 
 import Base_de_Datos.ConexionBD
 
+/**
+ * Implementación concreta de Sesion_EmocionDAO para interactuar con la base de datos.
+ *
+ *
+ * @constructor Crea una nueva instancia de Sesion_EmocionDAOImpl
+ */
 class Sesion_EmocionDAOImpl: Sesion_EmocionDAO {
     private val conexion = ConexionBD()
 
