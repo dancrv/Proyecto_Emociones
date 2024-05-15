@@ -2,6 +2,12 @@ package Grupo_Terapeuta
 
 import BaseDatos.ConexionBD
 
+/**
+ *  Implementación de la interfaz Grupo_TerapeutaDAO para gestionar operaciones
+ *  relacionadas con grupos de terapeutas en la base de datos.
+ *
+ * @constructor Create empty Grupo_terapeuta d a o impl
+ */
 class Grupo_TerapeutaDAOImpl: Grupo_TerapeutaDAO {
     private val conexion = ConexionBD()
 

@@ -1,5 +1,10 @@
 package Individuo
 
+/**
+ * La clase Individuo Representa a un individuo con su información básica
+ *
+ * @constructor Create empty Individuo
+ */
 class Individuo{
     var id_individuo:Int = 0
     lateinit var nombre:String
