@@ -2,6 +2,12 @@ package Tecnica
 
 import Base_de_Datos.ConexionBD
 
+/**
+ * Implementación concreta de TecnicaDAO para interactuar con la base de datos.
+ *
+ *
+ * @constructor Crea una nueva instancia de TecnicaDAOImpl
+ */
 class TecnicaDAOImpl: TecnicaDAO {
 
     private val conexion = ConexionBD()
