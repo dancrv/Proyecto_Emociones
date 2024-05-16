@@ -2,6 +2,11 @@ package Sesion
 
 import BaseDatos.ConexionBD
 
+/**
+ *Implementación de SesionDAO para acceder y gestionar sesiones en la base de datos.
+ *
+ *@constructor Crea una instancia de SesionDAOImpl.
+ */
 class SesionDAOImpl: SesionDAO {
 
     private val conexion = ConexionBD()

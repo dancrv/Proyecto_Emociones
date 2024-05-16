@@ -2,6 +2,12 @@ package Terapeuta
 
 import BaseDatos.ConexionBD
 
+/**
+ * LA clase Terapeuta proporciona métodos para interactuar con la base de datos relacionada con la entidad Terapeuta.
+ *
+ *
+ * @constructor Crea un TerapeutaDAOImpl
+ */
 class TerapeutaDAOImpl: TerapeutaDAO {
 
     private val conexion = ConexionBD()

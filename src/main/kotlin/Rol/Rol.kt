@@ -1,5 +1,10 @@
 package Rol
 
+/**
+ * La clase Rol representa un rol en el sistema.
+ *
+ * @constructor Crea un nuevo rol con el ID y la descripción especificados.
+ */
 class Rol {
 
     var id_rol: Int = 0

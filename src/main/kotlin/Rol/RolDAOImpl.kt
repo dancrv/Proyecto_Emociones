@@ -2,6 +2,11 @@ package Rol
 
 import Base_de_Datos.ConexionBD
 
+/**
+ * Implementación de RolDAO para acceder y gestionar roles en la base de datos.
+ *
+ * @constructor Crea una instancia de RolDAOImpl.
+ */
 class RolDAOImpl: RolDAO {
 
     private val conexion = ConexionBD()

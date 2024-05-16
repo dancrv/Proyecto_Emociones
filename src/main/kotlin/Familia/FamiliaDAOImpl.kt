@@ -2,6 +2,11 @@ package Familia
 
 import Base_de_Datos.ConexionBD
 
+/**
+ * Implementación de la interfaz FamiliaDAO para gestionar operaciones relacionadas con familias en la base de datos.
+ *
+ * @constructor Create empty Familia d a o impl
+ */
 class FamiliaDAOImpl: FamiliaDAO {
     private val conexion = ConexionBD()
 

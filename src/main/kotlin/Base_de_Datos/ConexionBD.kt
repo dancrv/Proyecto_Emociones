@@ -2,12 +2,21 @@ package Base_de_Datos
 
 import java.sql.*
 
+/**
+ * ConexionBD Es una clase para crear la base de datos
+ *
+ * @constructor Create empty Conexion b d
+ */
 class ConexionBD {
     val url = "jdbc:mysql://localhost/emociones"
     val user = "root"
     val password = ""
     var conn: Connection? = null
 
+    /**
+     * La clase conectar, conecta con la base de datos
+     *
+     */
     fun conectar() {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver")
@@ -19,6 +28,10 @@ class ConexionBD {
         }
     }
 
+    /**
+     * La clase desconectae nos desconecta de la base de datos
+     *
+     */
     fun desconectar() {
         try {
             conn?.close()
@@ -27,10 +40,21 @@ class ConexionBD {
         }
     }
 
+    /**
+     * Get statement
+     *
+     * @return
+     */
     fun getStatement(): Statement? {
         return conn?.createStatement()
     }
 
+    /**
+     * Get prepared statement
+     *
+     * @param sql
+     * @return
+     */
     fun getPreparedStatement(sql: String): PreparedStatement? {
         return conn?.prepareStatement(sql)
     }

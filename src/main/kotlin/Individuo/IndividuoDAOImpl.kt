@@ -1,7 +1,13 @@
 package Individuo
 
-import Base_de_Datos.ConexionBD
+import BaseDatos.ConexionBD
 
+/**
+ * Implementación de la interfaz IndividuoDAO para realizar operaciones
+ * crear, leer, actualizar y borar en la tabla INDIVIDUO de la base de datos.
+ *
+ * @constructor Create empty Individuo d a o impl
+ */
 class IndividuoDAOImpl: IndividuoDAO {
 
     private val conexion = ConexionBD()
