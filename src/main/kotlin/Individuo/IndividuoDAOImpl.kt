@@ -1,6 +1,6 @@
 package Individuo
 
-import BaseDatos.ConexionBD
+import Base_de_Datos.ConexionBD
 
 /**
  * Implementación de la interfaz IndividuoDAO para realizar operaciones

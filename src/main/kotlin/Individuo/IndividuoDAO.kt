@@ -43,6 +43,5 @@ interface IndividuoDAO {
      * @param id_individuo es el identificador único del individuo que se va a borrar.
      * @return devuelve true si la eliminación fue exitosa, false en caso contrario.
      */
-    fun borrarIndividio(id_individuo: Int): Boolean
     fun borrarIndividuo(id_individuo: Int): Boolean
 }
