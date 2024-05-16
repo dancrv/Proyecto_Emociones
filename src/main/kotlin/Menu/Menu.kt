@@ -21,7 +21,7 @@ import Terapeuta.Terapeuta
 import Terapeuta.TerapeutaDAOImpl
 
 class Menu {
-    val BUSCAR = 1
+    var BUSCAR = 1
     val SACAR = 2
     val INSERTAR = 3
     val MODIFICAR = 4
@@ -100,7 +100,7 @@ class Menu {
                 }
             }
 
-            accionTabla == BORRAR && eleccionTabla == INDIVIDUO -> IndividuoDAOImpl().borrarIndividio(pedirID())
+            accionTabla == BORRAR && eleccionTabla == INDIVIDUO -> IndividuoDAOImpl().borrarIndividuo(pedirID())
             accionTabla == BUSCAR && eleccionTabla == FAMILIA -> println(FamiliaDAOImpl().buscarFamilia(pedirID()))
             accionTabla == SACAR && eleccionTabla == FAMILIA -> println(FamiliaDAOImpl().sacarFamilia())
             accionTabla == INSERTAR && eleccionTabla == FAMILIA -> {

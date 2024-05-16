@@ -21,8 +21,6 @@ class SesionDAOImpl: SesionDAO {
         return sesion
     }
 
-
-
     override fun sacarSesion(): List<Sesion> {
         conexion.conectar()
         val query = "SELECT * FROM SESION"

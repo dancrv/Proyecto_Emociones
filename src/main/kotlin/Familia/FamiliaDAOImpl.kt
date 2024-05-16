@@ -1,6 +1,6 @@
 package Familia
 
-import BaseDatos.ConexionBD
+import Base_de_Datos.ConexionBD
 
 class FamiliaDAOImpl: FamiliaDAO {
     private val conexion = ConexionBD()
