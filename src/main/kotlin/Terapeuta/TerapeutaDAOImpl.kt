@@ -1,6 +1,6 @@
 package Terapeuta
 
-import BaseDatos.ConexionBD
+import Base_de_Datos.ConexionBD
 
 /**
  * LA clase Terapeuta proporciona métodos para interactuar con la base de datos relacionada con la entidad Terapeuta.

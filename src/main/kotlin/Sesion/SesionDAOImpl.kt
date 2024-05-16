@@ -1,6 +1,6 @@
 package Sesion
 
-import BaseDatos.ConexionBD
+import Base_de_Datos.ConexionBD
 
 /**
  *Implementación de SesionDAO para acceder y gestionar sesiones en la base de datos.

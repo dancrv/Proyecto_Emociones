@@ -1,6 +1,6 @@
 package Sesion_Emocion
 
-import BaseDatos.ConexionBD
+import Base_de_Datos.ConexionBD
 
 /**
  * Implementación concreta de Sesion_EmocionDAO para interactuar con la base de datos.

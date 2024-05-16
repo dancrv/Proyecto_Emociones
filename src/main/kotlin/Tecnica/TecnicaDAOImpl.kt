@@ -1,6 +1,6 @@
 package Tecnica
 
-import BaseDatos.ConexionBD
+import Base_de_Datos.ConexionBD
 
 /**
  * Implementación concreta de TecnicaDAO para interactuar con la base de datos.
